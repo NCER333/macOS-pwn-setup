@@ -12,10 +12,11 @@ brew install colima docker
 ```
 
 **2. Initialize the x86_64 VM**
+
 I use sshfs to share an instant directory with the main system
 ```bash
 colima start --arch x86_64 --cpu 2 --memory 4 --mount-type sshfs 
-
+```
 **3. Run the container**
 
 ```bash
