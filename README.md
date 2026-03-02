@@ -30,5 +30,5 @@ colima start --arch x86_64 --cpu 2 --memory 4 --mount-type sshfs
 
 4. Once in the shell install your tools
 
-   My tools 
+   My tools (./basic-tools)
    
